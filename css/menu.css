@@ -1,0 +1,108 @@
+.menu .header {
+  background: #fff0d9;
+}
+
+.menu .bottom {
+  padding: 4.5vw 0;
+}
+
+.menu .title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.menu .controls {
+  position: absolute;
+  top: 480px;
+  left: 50%;
+  width: calc(100% - 104px);
+  margin-left: calc(52px - 50%);
+  display: flex;
+  height: 80px;
+  line-height: 80px;
+  background: #fff;
+  box-shadow: 0px 0px 19px rgb(0 0 0 / 25%);
+  border-radius: 30px;
+  padding: 0 26px;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 18px;
+  color: #626262;
+}
+
+.menu .main {
+  width: 57.5vw;
+  margin: 0 auto;
+}
+
+.menu .main-item {
+  margin-top: 10vw;
+  margin-bottom: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu .main-item .title {
+  font-family: "new-york";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 2vw 0 4vw;
+}
+.menu .main-menu-item {
+  padding: 4vw 24px 1vw;
+  width: 100%;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.menu .m-i {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.menu .m-i .right {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3.5vw;
+  margin-top: 2vw;
+  flex: 1;
+}
+
+.menu .m-i .text .info {
+  /* font-family: 'SF Pro'; */
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 118.4%;
+}
+
+.menu .m-i .text .small {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 118.4%;
+  color: #837777;
+  margin-top: 10px;
+}
+
+.menu .m-i .price {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 18px;
+  line-height: 118.4%;
+  color: #000000;
+}
+
+.menu .etc {
+  font-family: "new-york";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 118.4%;
+  color: #000000;
+  margin-bottom: 12vw;
+}

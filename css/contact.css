@@ -1,0 +1,83 @@
+.contact .header {
+  height: 40vh;
+  background: #fff0d9;
+}
+
+.contact .bottom {
+  font-family: "Gilroy";
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 140%;
+  color: #000000;
+  margin-left: 24px;
+  margin-top: 3vw;
+}
+
+.contact .contact-wrap {
+  display: flex;
+  padding: 4.86vw 8.125vw 20vw;
+}
+
+.contact .contact-wrap img {
+  width: 31vw;
+  height: 31vw;
+  background: #ccc;
+  margin-right: 5vw;
+}
+
+.contact .contact-wrap .row {
+  display: flex;
+  margin-bottom: 1.5vw;
+  justify-content: space-between;
+}
+
+.contact .contact-wrap .right {
+  flex: 1;
+  padding-top: 3vw;
+}
+
+.contact .contact-wrap label {
+  font-weight: 510;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.contact-wrap input,
+.contact-wrap textarea {
+  width: 22vw;
+  line-height: 40px;
+  padding-left: 20px;
+  background: #ffffff;
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.contact-wrap textarea {
+  width: 49.75vw;
+  height: 200px;
+  resize: none;
+}
+
+input::-ms-input-placeholder {
+  color: #d9d9d9;
+}
+input:-moz-placeholder {
+  color: #d9d9d9;
+}
+input::-webkit-input-placeholder {
+  color: #d9d9d9;
+}
+
+.submit {
+  margin-top: 2vw;
+  width: 14vw;
+  line-height: 3.8vw;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background: #ff603c;
+}

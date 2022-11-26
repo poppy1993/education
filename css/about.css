@@ -1,0 +1,82 @@
+.about .header {
+  height: 40vh;
+  background: #fff0d9;
+}
+
+.about-item {
+  display: flex;
+  position: relative;
+  padding-left: 45vw;
+  padding-right: 10vw;
+}
+
+.about-item .img {
+  width: 42vw;
+  position: absolute;
+  top: -7vw;
+  left: 0;
+}
+
+.about-item h2 {
+  margin-top: 2.8vw;
+  margin-bottom: 4.5vw;
+  font-family: "Gilroy";
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 74px;
+}
+
+.about-item p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 153%;
+  color: rgba(0, 0, 0, 0.73);
+  margin-bottom: 2.6vw;
+}
+
+.about-item.story {
+  display: block;
+  padding-left: 11vw;
+  padding-right: 0;
+}
+
+.about-item.story h2 {
+  padding-left: 18vw;
+}
+
+.about-item.story .stroy-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.about-item.story .left p {
+  margin-right: 3vw;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 153%;
+  color: rgba(0, 0, 0, 0.73);
+  margin-bottom: 2.6vw;
+}
+
+.about-item.story .story-wrap img {
+  position: static;
+  width: 55.5vw;
+}
+
+.about-item.histroy {
+  width: 58.9vw;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+  text-align: center;
+  font-weight: 400;
+}
+
+.about-item.histroy p {
+  font-size: 18px;
+  line-height: 294.5%;
+  color: rgba(0, 0, 0, 0.73);
+  margin-bottom: 15vw;
+}
